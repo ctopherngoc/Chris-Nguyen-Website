@@ -1,0 +1,89 @@
+#huh {
+  background-color: white;
+}
+
+/* nav {
+  background-color: purple;
+} */
+/* nav-barlink spacing */
+.nav-item {
+  padding: 0 10px;
+}
+
+.nav-link:hover {
+  color: black;
+}
+
+.nav-item dropdown:hover {
+  color: black;
+}
+
+/* .dropdown-menu {
+  background-color: purple;
+}
+.dropdown-item {
+background-color: purple;} */
+body {
+  margin: 0;
+  text-align: center;
+  height: 50%;
+}
+
+.centerpic {
+  height: 160px;
+  width: 400px;
+  padding-top: 35px;
+  padding-bottom: 20px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 50px auto 10px auto;
+  line-height: 2;
+  text-align: left;
+}
+
+h3 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.centerpic1 {
+  height: 300px;
+  width: 300px;
+  float: left;
+  padding-right: 10px;
+}
+
+.bottom-container {
+  height: 600px;
+  /* background-color: purple; */
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+table.a {
+  width: 30%;
+  margin-left: 35%;
+  margin-right: :35%;
+  align: center;
+}
+
+table.b {
+  width: 20%;
+  margin-left: 40%;
+  margin-right: :40%;
+  align: center;
+}
+
+/* .bio {
+  padding: 25px;
+} */
+.footer-link {
+  color: gray;
+}
+
+.footer-link:hover {
+  color: black;
+}
