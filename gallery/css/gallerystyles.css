@@ -1,0 +1,75 @@
+
+#huh {
+  background-color: white;
+}
+
+/* nav {
+  background-color: purple;
+} */
+
+/* nav-barlink spacing */
+.nav-item {
+  padding: 0 10px;
+}
+
+.nav-link:hover{
+  color: black;
+}
+
+.nav-item dropdown:hover{
+  color: black;
+}
+
+/* .dropdown-menu {
+  background-color: purple;
+}
+.dropdown-item {
+background-color: purple;} */
+
+
+
+body {
+  margin: 0;
+  text-align: center;
+  height: 50%;
+  padding-left: 50px;
+  padding-right: 50px;
+ }
+
+ .centerpic {
+   height: 160px;
+   width: 400px;
+   padding-top: 35px;
+   padding-bottom: 20px;
+  }
+
+
+.bottom-container {
+/* background-color: purple; */
+width: 100%;
+}
+
+.gallery {
+  margin: 10px 50px;
+}
+
+.gallery img {
+  transition: 1s;
+  padding: 15px;
+}
+
+.gallery img:hover{
+  filter: grayscale(100%);
+  transform:scale(1:1);
+}
+
+.footer-link {
+  color: gray;
+}
+
+}
+.footer-link:hover{
+  color:black;
+}
+
+  /*  */
