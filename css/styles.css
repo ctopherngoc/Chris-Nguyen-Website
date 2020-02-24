@@ -56,7 +56,7 @@ h3 {
 }
 
 .bottom-container {
-  height: 600px;
+  /* height: 300px; */
   /* background-color: purple; */
   position: absolute;
   bottom: 0;
