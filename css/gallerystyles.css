@@ -1,52 +1,36 @@
 
-#huh {
-  background-color: white;
-}
-
-/* nav {
-  background-color: purple;
-} */
-
 /* nav-barlink spacing */
 .nav-item {
   padding: 0 10px;
 }
 
-.nav-link:hover{
+.nav-link:hover {
   color: black;
 }
 
-.nav-item dropdown:hover{
+.nav-item dropdown:hover {
   color: black;
 }
-
-/* .dropdown-menu {
-  background-color: purple;
-}
-.dropdown-item {
-background-color: purple;} */
-
-
 
 body {
+  font-family: 'Frank Ruhl Libre', serif;
   margin: 0;
   text-align: center;
   height: 50%;
   padding-left: 50px;
   padding-right: 50px;
- }
+}
 
- .centerpic {
-   height: 160px;
-   width: 400px;
-   padding-top: 35px;
-   padding-bottom: 20px;
-  }
-
+.centerpic {
+  width: 400px;
+  height: auto;
+  padding-top: 35px;
+  padding-bottom: 5px;
+}
 
 .bottom-container {
-/* background-color: purple; */
-width: 100%;
+  margin-top: 25px;
+  width: 100%;
 }
 
 .gallery {
@@ -58,18 +42,15 @@ width: 100%;
   padding: 15px;
 }
 
-.gallery img:hover{
+.gallery img:hover {
   filter: grayscale(100%);
-  transform:scale(1:1);
+  transform: scale(1:1);
 }
 
 .footer-link {
   color: gray;
 }
 
+.footer-link:hover {
+  color: black;
 }
-.footer-link:hover{
-  color:black;
-}
-
-  /*  */
