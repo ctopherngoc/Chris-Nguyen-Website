@@ -33,15 +33,18 @@ body {
   width: 100%;
 }
 
+/* margin settings for gallery */
 .gallery {
   margin: 10px 50px;
 }
 
+/* transition setting when photo clicked on */
 .gallery img {
   transition: 1s;
   padding: 15px;
 }
 
+  /* image turns gray when moused over */
 .gallery img:hover {
   filter: grayscale(100%);
   transform: scale(1:1);

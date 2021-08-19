@@ -21,20 +21,31 @@
 </head>
 
 <body>
+  <!-- top most image with my name -->
   <img class="centerpic" src="images/logonoline.png" alt="top-pic" height: "160" width: "400">
   <div class="pl-margin">
+
+    <!-- navbar class-->
     <nav class="navbar navbar-expand-sm navbar-light">
+
+      <!-- navbar button bar-->
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
 
+      <!-- div class for javascript to epand and cllapse tabs -->
       <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
 
+        <!-- ul list for the navbar buttons -->
         <ul class="navbar-nav ml-auto mr-auto">
           <li class="nav-item">
-            <a class="nav-link" href="index.html">About</a>
+            <a class="nav-link" href="index.html">Home</a>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
           <li class="nav-item">
             <a class="nav-link" href="resume.html">Work</a>
+
+          <!-- special list class to expand button to drop down menu -->
           <li class="nav-item dropdown">
             <a class="nav-link" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               Hobbies
@@ -42,16 +53,22 @@
             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
               <a class="dropdown-item" href="#">Powerlifting</a>
               <a class="dropdown-item" href="photography.html">Photography</a>
-              <a class="dropdown-item" href="#">Coding</a>
             </div>
+
+             <!-- final button -->
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
           </li>
         </ul>
 
       </div>
     </nav>
 
+    <!-- special fading carousel with scrolling and auto iterate-->
     <div id="carouselFade" class="carousel slide carousel-fade" data-ride="carousel">
       <ol class="carousel-indicators">
+
+        <!-- rectangular indicators at bottom of carousel to indicate the active photo-->
         <li data-target="#carouselFade" data-slide-to="0" class="active"></li>
         <li data-target="#carouselFade" data-slide-to="1"></li>
         <li data-target="#carouselFade" data-slide-to="2"></li>
@@ -59,6 +76,8 @@
         <li data-target="#carouselFade" data-slide-to="4"></li>
         <li data-target="#carouselFade" data-slide-to="5"></li>
       </ol>
+
+      <!-- list of images in the carousel -->
       <div class="carousel-inner">
         <div class="carousel-item active">
           <img class="d-block w-100 img1" src="images/pl-images/1.jpg" alt="First slide" width="800">
@@ -81,6 +100,8 @@
           <img class="d-block w-100 img1" src="images/pl-images/6.jpg" alt="Third slide" width="800">
         </div>
       </div>
+
+      <!-- carousel forward and back buttons -->
       <a class="carousel-control-prev" href="#carouselFade" role="button" data-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
         <span class="sr-only">Previous</span>
@@ -91,28 +112,35 @@
       </a>
     </div>
 
-    <p>I am a strength athlete. I primarily weight train and compete in powerlifing in the 74kg open division. I began my weight training journey in highschool in 2009. I primarily did it to improve the sports I participated in. Early on, I noticed I
+    <!-- scrolling box with text description -->
+    <div class="myBox">
+    <p>I am a retired strength athlete. I used to weight train and compete in powerlifing in the 74kg/66kg open division. I began my weight training journey in highschool in 2009. I primarily did it to improve the sports I participated in. Early on, I noticed I
       did not like the concept
       of complementary weight training and only focus on my strength gains in weight training. Several years later, when powerlifting became more main stream I started competing in powerlifting in 2019. </p>
+    </div>
+
+    <!-- static photo under the scrolling text box -->
     <figure>
       <img class="img1" src="images/pl-images/meet-medal.jpg" alt="" width="800">
+
+      <!-- figure caption -->
       <figcaption>
-        Winning first place at Watcat Strength Gym's first meet. Coach Vince (left) Myself, and Coach Arnel (right).
+        Winning first place at Watcat Strength Gym's first offical powerlifting meet. Coach Vince (left) Myself, and Coach Arnel (right).
       </figcaption>
     </figure>
 
-    <div id="video-carousel-example" class="carousel slide carousel-fade" data-ride="carousel">
+    <!-- carousel containing videos -->
+    <div id="video-carousel" class="carousel slide carousel-fade" data-ride="carousel">
 
-      <!--Indicators-->
+      <!--rectangular indicators at the bottom of carousel to display which video is active-->
       <ol class="carousel-indicators">
-        <li data-target="#video-carousel-example" data-slide-to="0" class="active"></li>
-        <li data-target="#video-carousel-example" data-slide-to="1"></li>
-        <li data-target="#video-carousel-example" data-slide-to="2"></li>
-        <li data-target="#video-carousel-example" data-slide-to="3"></li>
+        <li data-target="#video-carousel" data-slide-to="0" class="active"></li>
+        <li data-target="#video-carousel" data-slide-to="1"></li>
+        <li data-target="#video-carousel" data-slide-to="2"></li>
+        <li data-target="#video-carousel" data-slide-to="3"></li>
       </ol>
-      <!--/.Indicators-->
 
-      <!--Slides-->
+      <!-- videos for the carousel-->
       <div class="carousel-inner" role="listbox">
         <div class="carousel-item active">
           <video class="video-fluid video-hori" width="690" loop muted controls>
@@ -136,11 +164,26 @@
         </div>
       </div>
     </div>
-    <!--/.Slides-->
+
+    <!-- unorder list containing personal best-->
     <figure>
-      Personal record during training which includes a 303lbs bench, 425lbs squat, and 540lbs deadlift.
+      <ul>
+        <li class = "list, list-title">
+          Personal Record @ 74kg
+        </li>
+        <li class = "list">
+          Bench: 308lbs
+        </li>
+        <li class = "list">
+          Squat: 425lbs
+        </li>
+        <li class = "list">
+          Deadlift: 540lbs
+        </li>
+      </ul>
     </figure>
 
+    <!-- bottom container with buttons that lead to personal social sites -->
     <div class="bottom-container">
       <a id="pl-footer" href="index.html"> <i class="fas fa-home fa-2x"></i>
         <alt="home">
@@ -151,10 +194,8 @@
       <a id="pl-footer" href="https://github.com/ctopherngoc"> <i class="fab fa-github-square fa-2x"></i>
         <alt="Github">
       </a>
-      <p id="pl-footer" class="bottom-statement">© 2020 Christopher Nguyen.</p>
-
+      <p id="pl-footer" class="bottom-statement">© 2021 Christopher Nguyen.</p>
     </div>
   </div>
 </body>
-
 </html>
