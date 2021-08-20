@@ -99,7 +99,12 @@ h3 {
   height: 300px;
   width: 300px;
   float: left;
-  padding-right: 10px;
+  margin-right: 20px;
+  /* padding-right: 40px; */
+}
+
+.bio {
+  text-align: justify;
 }
 
 /* container does not work with video. it causes the footer and video to overlap. pl-bottom-container empty */
