@@ -19,12 +19,22 @@
 }
 
 /* general style for body of webpage */
-body {
+.body {
   font-family: 'Frank Ruhl Libre', serif;
   background-color: white;
   padding: 0;
   text-align: center;
   height: 50%;
+}
+
+.centerHeader {
+  font-family: 'Frank Ruhl Libre', serif;
+  padding-top: 35px;
+  padding-bottom: 5px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 400px;
 }
 
 /* special margin for powerlifting page */
@@ -34,7 +44,7 @@ body {
 
 /* imgs for carousel in powerlifting page */
 .img1 {
-  width: 95%;
+  width: 100%;
   height: auto;
   border:2px solid black;
 }
@@ -49,6 +59,14 @@ video {
 }
 .video-vert {
   width: auto;
+}
+
+.centerContact {
+  font-family: 'Frank Ruhl Libre', serif;
+  background-color: white;
+  padding: 0;
+  text-align: center;
+  height: 50%;
 }
 
 /* style for top most image on every page */
@@ -178,4 +196,8 @@ background: #999;
 
 .list-title {
   list-style-type: none;
+}
+
+.contactForm {
+  width: 400px;
 }

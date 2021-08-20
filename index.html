@@ -22,10 +22,10 @@
 
 <body>
   <!-- top most image with my name -->
-  <img src="images/logonoline.png" alt="top-pic" class="centerpic" >
+  <img class="centerHeader" src="images/logonoline.png" alt="top-pic" class="centerpic" id="logo" height: "160" width: "400">
 
   <!-- navbar class-->
-  <nav class="navbar navbar-expand-sm navbar-light">
+  <nav class="body navbar navbar-expand-sm navbar-light">
 
     <!-- navbar button bar-->
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
@@ -40,10 +40,15 @@
         <li class="nav-item">
           <a class="nav-link" href="index.html">Home</a>
         <li class="nav-item">
-        <li class="nav-item">
           <a class="nav-link" href="about.html">About</a>
-        <li class="nav-item">
-          <a class="nav-link" href="resume.html">Work</a>
+        <li class="nav-item dropdown">
+          <a class="nav-link" href="resume.html" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
+          >Experience
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" download href="resume.html">Work & Education</a>
+          <a class="dropdown-item" download href="Chris Nguyen Resume.pdf">Resume</a>
+        </div>
 
         <!-- special list class to expand button to drop down menu -->
         <li class="nav-item dropdown">
@@ -58,13 +63,10 @@
           <!-- final button -->
           <li class="nav-item">
             <a class="nav-link" href="contact.html">Contact</a>
-        </li>
-      </ul>
-    </div>
   </nav>
 
   <!-- carousel with scrolling and auto iterate -->
-  <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+  <div id="carouselExampleControls" class="body carousel slide" data-ride="carousel">
     <div class="carousel-inner">
 
       <!-- first image active -->
@@ -92,7 +94,7 @@
   </div>
 
   <!-- bottom container with buttons that lead to personal social sites -->
-  <div class="bottom-container">
+  <div class="body bottom-container">
     <a class="footer-link" href="index.html"> <i class="fas fa-home fa-2x"></i> <alt="home"></a>
     <a class="footer-link" href="https://www.linkedin.com/in/christopher-nguyen-5891015a/"> <i class="fab fa-linkedin fa-2x"> </i> <alt="LinkedIn"></a>
     <a class="footer-link" href="https://github.com/ctopherngoc"> <i class="fab fa-github-square fa-2x"></i> <alt="Github"></a>
