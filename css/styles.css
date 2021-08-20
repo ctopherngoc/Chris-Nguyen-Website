@@ -37,6 +37,16 @@
   width: 400px;
 }
 
+.carouselIndex {
+  font-family: 'Frank Ruhl Libre', serif;
+  /* padding-top: 10px;
+  padding-bottom: 5px; */
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
 /* special margin for powerlifting page */
 .pl-margin{
   margin: 0 25%;
@@ -169,6 +179,18 @@ margin-top: 10px;
 margin-bottom: 10px;
 }
 
+.figureCaption {
+border: none;
+padding: 10px;
+font: 18px/36px sans-serif;
+width: 100%;
+margin-top: 10px;
+margin-bottom: 10px;
+}
+.carouselIndex {
+  width: 65%;
+  height: auto;
+}
 /* Scrollbar styles */
 ::-webkit-scrollbar {
 width: 12px;
@@ -195,13 +217,15 @@ background: #999;
 }
 
 .list {
-    text-align: center;
-    list-style-position: inside;
+    font-family: 'Frank Ruhl Libre', serif;
+    display: table;
+    margin: 0 auto;
+    /* display: table; */
+    /* text-align: center;
+    list-style-position: inside; */
+    list-style-type: none;
 }
 
-.list-title {
-  list-style-type: none;
-}
 
 .contactForm {
   width: 400px;
