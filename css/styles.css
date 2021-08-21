@@ -18,6 +18,9 @@
     height: 25%;
 }
 
+.bodyFont{
+  font-family: 'Frank Ruhl Libre', serif;
+}
 /* general style for body of webpage */
 .body {
   font-family: 'Frank Ruhl Libre', serif;
@@ -27,6 +30,9 @@
   height: 50%;
 }
 
+/* .titlePadding {
+  padding-left: 25px;
+} */
 .centerHeader {
   font-family: 'Frank Ruhl Libre', serif;
   padding-top: 35px;
@@ -129,7 +135,7 @@ h3 {
   height: 2.5rem;
 }
 
-  /* style for work experience table */
+/* style for work experience table */
 table.a {
   width: 50%;
   margin-left: 25%;
@@ -137,7 +143,7 @@ table.a {
   align: center;
 }
 
-  /* style for education table */
+/* style for education table */
 table.b {
   width: 50%;
   margin-left: 25%;
@@ -153,8 +159,7 @@ td {
 height: 40px;
 }
 
-
-  /* style for footer on each page */
+/* style for footer on each page */
 .footer-link {
   color: gray;
 }
@@ -167,7 +172,7 @@ height: 40px;
   color: black;
 }
 
-  /* style for scroll boz under img carousel in powerlifting page */
+/* style for scroll boz under img carousel in powerlifting page */
 .myBox {
 border: none;
 padding: 10px;
@@ -213,19 +218,26 @@ background: #999;
 
 .sendbutton {
   margin-left; -50px;
+}
 
+.titlePadding{
+  margin-bottom: 0;
+}
+.listParent {
+  text-align: center;
+  margin-top: 0;
 }
 
 .list {
     font-family: 'Frank Ruhl Libre', serif;
+    margin-left: auto;
+    margin-right: auto;
     display: table;
-    margin: 0 auto;
-    /* display: table; */
-    /* text-align: center;
-    list-style-position: inside; */
+	  text-align: left;
     list-style-type: none;
+    padding-right: 25px;
+    margin-bottom: 0;
 }
-
 
 .contactForm {
   width: 400px;

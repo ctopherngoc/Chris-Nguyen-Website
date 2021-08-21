@@ -28,10 +28,10 @@
 
 <body>
   <!-- top most image with my name -->
-  <img src="images/logonoline.png" alt="top-pic" class="centerpic" id="logo" height: "160" width: "400">
+  <img src="images/logonoline.png" alt="top-pic" class="centerHeader centerpic" id="logo" height: "160" width: "400">
 
   <!-- navbar class-->
-  <nav class=" body navbar navbar-expand-sm navbar-light">
+  <nav class="navbar navbar-expand-sm navbar-light">
 
     <!-- navbar button bar-->
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
@@ -47,12 +47,16 @@
           <a class="nav-link" href="index.html">Home</a>
         <li class="nav-item">
           <a class="nav-link" href="about.html">About</a>
+
+        <!-- special list class to expand button to drop down menu -->
         <li class="nav-item dropdown">
           <a class="nav-link" href="resume.html" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
           >Experience
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
             <a class="dropdown-item" href="resume.html">Work & Education</a>
+
+            <!-- download on click -->
             <a class="dropdown-item" download href="Chris Nguyen Resume.pdf">Resume</a>
           </div>
 
@@ -66,11 +70,14 @@
             <a class="dropdown-item" href="photography.html">Photography</a>
           </div>
 
-          <!-- final button -->
+          <!-- final nav button -->
           <li class="nav-item">
             <a class="nav-link" href="contact.html">Contact</a>
+
     </div>
   </nav>
+
+
   <!-- light box for image gallery -->
   <div class="body gallery">
     <a href="gallery/dog3.jpg" data-lightbox="mygallery"><img src="gallery/dog3.jpg" width="350" height="270"></a>
@@ -106,6 +113,9 @@
       <alt="Github">
     </a>
     <p class="body bottom-statement">© 2021 Christopher Nguyen.</p>
+
   </div>
+
 </body>
+
 </html>
