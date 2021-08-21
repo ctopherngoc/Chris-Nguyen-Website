@@ -239,6 +239,9 @@ background: #999;
     margin-bottom: 0;
 }
 
+.bottom-statement{
+  padding-left: 10px;
+}
 .contactForm {
   width: 400px;
 }
