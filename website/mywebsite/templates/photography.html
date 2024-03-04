@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+
+<!-- light box for image gallery -->
+<div id="photo" class="gallery body">
+  {% for image in images %}
+    <a href="{% static image %}" data-lightbox="mygallery">
+    <img src="{% static image %}" id="gallery_img" width="350" height="270"></a>
+  {% endfor %} 
+
+</div>
+
+
+{% endblock %}
