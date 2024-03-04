@@ -1,0 +1,28 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+
+<!-- form that takes user input and send get to oregon state university checker site -->
+<form class="centerHeader" action="mailto:ctopherngoc@gmail.com" method="post" enctype="text/plain" id="form">
+    <div>
+      <label for="name">Name:
+      <br>
+        <input class="contactForm" type="text" name="name" id="name" placeholder="Your Name"/>
+      </label>
+    </div>
+    <div>
+      <label for="email">Email:
+        <br>
+        <input class="contactForm" type="text" name="email" id="email" placeholder="youremail@mail.com" />
+      </label>
+    </div>
+    <div>
+      <label for="comment">Message:</label>
+      <br>
+      <textarea class="contactForm" name="comments" rows="12" cols="35" placeholder="Your message."></textarea>
+
+    </div>
+    <div>
+      <input class = "sendbutton btn btn-secondary btn-sm" type="submit" name="submit" value="Send" />
+    </div>
+{% endblock %}
